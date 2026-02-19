@@ -1,0 +1,179 @@
+:root {
+    --header-bg: #000000;
+    --modal-blue-top: #1a4da1;
+    --btn-settings: linear-gradient(90deg, #37cfff, #00b4db);
+    --btn-help: linear-gradient(90deg, #37cfff, #00b4db);
+    --btn-logout: linear-gradient(90deg, #ff7e7e, #feb47b);
+}
+
+.main-header {
+    background-color: var(--header-bg);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-logo h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.header-user-trigger {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.header-user-trigger:hover {
+    transform: scale(1.1);
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-modal-overlay {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-right: 20px;
+    z-index: 9999;
+}
+
+.profile-card {
+    width: 325px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.profile-header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    padding: 25px 15px;
+    text-align: center;
+    color: white;
+}
+
+.profile-avatar-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-avatar-container img {
+    width: 80%;
+    filter: brightness(0) invert(1);
+}
+
+.profile-header h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.profile-header p {
+    margin: 5px 0 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.profile-menu {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-item {
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    transition: opacity 0.2s;
+}
+
+.menu-item:hover {
+    opacity: 0.9;
+}
+
+.menu-item img {
+    width: 24px;
+    margin-right: 15px;
+    filter: brightness(0) invert(1);
+}
+
+.menu-text {
+    text-align: left;
+}
+
+.menu-text span {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-text small {
+    font-size: 14px;
+}
+
+.btn-settings {
+    background: var(--btn-settings);
+}
+
+.btn-settings:hover {
+    background: #00ff1a;
+}
+
+.btn-help {
+    background: var(--btn-help);
+}
+
+.btn-help:hover {
+    background: #00ff1a;
+}
+
+.btn-logout {
+    background: var(--btn-logout);
+}
+
+.btn-logout:hover {
+    background: #ff0000;
+}

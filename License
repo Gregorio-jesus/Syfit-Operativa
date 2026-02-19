@@ -1,0 +1,27 @@
+Copyright (c) 2026 Syfit
+
+Este repositorio contiene una versión demostrativa limitada del sistema Syfit.
+
+El sistema comercial completo, los servicios backend, los mecanismos de sincronización y la infraestructura de licencias son privadas y no están incluidos en este repositorio.
+
+Se concede permiso para:
+
+- Usar y modificar el código de la interfaz de inicio de sesión.
+- Adaptar la estructura lógica de inicio de sesión.
+- Usar partes de la interfaz de usuario como referencia para proyectos personales.
+
+Bajo las siguientes condiciones: 
+
+- El diseño debe modificarse si se reutiliza.
+- El nombre del sistema "Syfit" no puede reutilizarse.
+- Este repositorio no puede redistribuirse como un producto comercial completo.
+
+No se permite:
+
+- Vender este proyecto como producto propio.
+- Renombrar y comercializar el concepto del sistema
+- Reivindicar la propiedad del sistema Syfit.
+
+Este repositorio se publica exclusivamente con fines de portafolio y demostración.
+
+Para consultas sobre licencias comerciales, contacte con el autor.

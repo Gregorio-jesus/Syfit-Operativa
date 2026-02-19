@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>Syfit Gym</title>
+
+    <link rel="stylesheet" href="../css/login.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left-side">
+
+            <div class="login-form">
+
+                <h1>Syfit Gym</h1>
+                <p>¡Bienvenido de nuevo! Ingrese a su cuenta</p>
+
+                <form id="authForm">
+
+                    <div class="input-group">
+                        <label>Usuario o email:</label>
+                        <img src="../img/usuario.png" alt="usuario">
+                        <input type="text" id="username" placeholder="Usuario" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Contraseña:</label>
+                        <img src="../img/candado.png" alt="candado">
+                        <input type="password" id="password" placeholder="Contraseña" required>
+                    </div>
+
+                    <button type="submit" class="login-btn" id="loginBtn">Iniciar sesión</button>
+                    <p id="errorMsg"
+                        style="color: #ff4d4d; font-size: 16px; text-align: center; margin-top: 10px; min-height: 20px;">
+                    </p>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="right-side">
+
+            <div class="decoration icon1">
+                <img src="../img/pesas.png" alt="pesas">
+            </div>
+
+            <div class="decoration icon2">
+                <img src="../img/corazon.png" alt="corazón">
+            </div>
+
+            <div class="right-content">
+                <h2>Bienvenido al Gym</h2>
+                <p>Tu transformación comienza aquí. Únete a nuestra comunidad fitness y gestiona la asistencia de tus
+                    clientes fácilmente.</p>
+                <a href="#" class="signup-btn">Asistencia</a>
+
+                <div class="illustration">
+                    <img src="../img/default-logo.png" alt="Logo SYFIT" class="logo-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
