@@ -61,7 +61,7 @@ No contiene:
   <img src="src/img/captura-3.png" width="700">
 </p>
 
-## Agregar Cliente
+## Agregar cliente
 
 <p align="center">
   <img src="src/img/captura-4.png" width="700">
