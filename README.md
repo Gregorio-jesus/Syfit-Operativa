@@ -7,7 +7,7 @@
 Este repositorio contiene únicamente la **parte operativa del sistema**, enfocada en la atención diaria del cliente dentro del establecimiento.
 
 ## Importante
-Este reporsitorio contiene únicamente una parte del proyecto original. Corresponde al módulo operativo de un sistema completo para gimnasios.
+Este repositorio contiene únicamente una parte del proyecto original. Corresponde al módulo operativo de un sistema completo para gimnasios.
 La versión completa inclueye servidor, seguridad, sincronización avanzada y panel administrativo en la nube, los cuales no están incluidos públicamente.
 
 ## Aviso
@@ -85,7 +85,7 @@ No contiene:
   <img src="src/img/captura-7.png" width="700">
 </p>
 
-## Modulo de VentaPOS
+## Modulo de ventapos
 
 <p align="center">
   <img src="src/img/captura-9.png" width="700">
